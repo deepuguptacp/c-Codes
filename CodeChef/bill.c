@@ -8,7 +8,8 @@ int main(){
 		printf("you have got 10%% discount\n");
 		total = ammount - ammount/10;
 		printf("Your ammount is = Rs. %d\n", total);
-	} else {
+	} 
+	else {
 		printf("ammount: %d\n",  ammount);
 	}
 	
