@@ -1,5 +1,10 @@
 #include<stdio.h>
 
+/**
+ * Method to calculate trailing zeros of factorial of a number
+ * @param N: number
+ * @return: count of trailing zeros in the factorial of number N 
+ */
 int calculateFactorialZeros(int N) {
 	int count  = 0;
 	while(N >= 5) {
@@ -10,6 +15,7 @@ int calculateFactorialZeros(int N) {
 }
 
 int main() {
+	
 	int T, N, i, ans;
 	scanf("%d", &T);
 	for(i = 1; i <= T; i++) {
@@ -18,5 +24,6 @@ int main() {
 		ans = calculateFactorialZeros(N);
 		printf("%d\n", ans);	
 	}
+
 	return 0;
 }
