@@ -1,5 +1,7 @@
 #include<stdio.h>
+
 int main(){
+	
 	int BS, DA, HRA, salary;
 	printf("Enter the Basic Salary: ");
 	scanf("%d", &BS);
@@ -13,5 +15,6 @@ int main(){
 	}
 	salary = BS + DA + HRA;
 	printf("Your salary is : Rs.  %d\n", salary);
+
 	return 0;
 }
