@@ -6,6 +6,6 @@ int main (){
 	printf("Enter the value of b : ");
 	scanf("%lf", &b);
 	division = a / b;
-	printf("%lf / %lf:%lf\n", a, b, division);
+	printf("%lf / %lf : %lf\n", a, b, division);
 	return 0;
 }
