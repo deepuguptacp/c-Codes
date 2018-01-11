@@ -10,7 +10,7 @@ int main () {
 
 	if(b == 0) {
 		fprintf(stderr, "Division by zero! Aborting...\n");
-        exit(EXIT_FAILURE); /* indicates failure.*/
+    	exit(EXIT_FAILURE); /* indicates failure.*/
 	}
 	division = (double)a / b;
 	printf("%d / %d : %.2lf\n", a, b, division);
