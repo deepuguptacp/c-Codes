@@ -1,5 +1,5 @@
 #include<stdio.h>
-int main (){
+int main () {
 	double a, b, product;
 	printf("Enter the value of a: ");
 	scanf("%lf", &a);

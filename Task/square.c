@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main(){
-	double a, Area;
+	double a, area;
 	printf("Enter the length of the side of the square : ");
 	scanf("%lf", &a);
-	Area = a * a;
-	printf("Area the square is = %lf\n", Area);
+	area = a * a;
+	printf("Area the square is = %lf\n", area);
 	return 0;
 }
