@@ -1,5 +1,7 @@
 #include<stdio.h>
-#define CREDIT 4 
+#define CREDIT2 2
+#define CREDIT3 3
+#define CREDIT4 4 
 int main() {
     double engineering_mathematics,element_of_electronics_engineering ,engineering_mechanics ,chemical_science,element_of_electronics_engineering_lab,chemical_science_lab, engineering_drawing;
     double communication_skill, humanity_and_social_science,percentage;
@@ -33,13 +35,13 @@ int main() {
     scanf("%lf",&engineering_drawing);
 
     //percentage is (summation of product of marks and credit)/(sum of credit);
-    percentage=(engineering_mathematics*4 + 
-                engineering_mechanics*4 +
-                element_of_electronics_engineering*4+
-                chemical_science*3+
-                communication_skill*2+ 
-                humanity_and_social_science*2+
-                engineering_drawing*2+
+    percentage=(engineering_mathematics*CREDIT4 + 
+                engineering_mechanics*CREDIT4 +
+                element_of_electronics_engineering*CREDIT4+
+                chemical_science*CREDIT3+
+                communication_skill*CREDIT2+ 
+                humanity_and_social_science*CREDIT2+
+                engineering_drawing*CREDIT2+
                 chemical_science_lab+
                 element_of_electronics_engineering_lab)/23;
 
