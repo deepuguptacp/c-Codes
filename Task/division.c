@@ -9,7 +9,7 @@ int main () {
 	scanf("%d", &b);
 
 	if(b == 0) {
-		fprintf(stderr, "Division by zero! Aborting...\n");
+		printf(stderr, "Division by zero! Aborting...\n");
     	exit(EXIT_FAILURE); /* indicates failure.*/
 	}
 	division = (double)a / b;
