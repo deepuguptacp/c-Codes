@@ -3,6 +3,7 @@ int main(){
 	double a, perimeter, area;
 	printf("Enter the side length : ");
 	scanf("%lf", &a);
+	// area = (sqrt(3)/4)*a*a
 	area = 0.433 * a; // wrong, do you remember area has dimension of (m*m), [unit dimension]
 	perimeter = 3 * a;
 	printf("Area of Equilateral traingle is : %lf\n", area);
