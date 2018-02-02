@@ -1,17 +1,17 @@
 #include <stdio.h>
 int main()
 {
-    int n, i, factorial;
+    int n, i, factorial = 1;
 
     printf("Enter an integer: ");
     scanf("%d",&n);
 
     // show error if the user enters a negative integer
-    if (n < 0)
+    if (n < 0){
         printf("Error! Factorial of a negative number doesn't 													exist.");
+	}
 
-    else
-    {
+    else{
         for(i=1; i<=n; ++i)
         {
             factorial *= i;    
