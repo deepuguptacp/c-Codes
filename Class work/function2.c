@@ -2,19 +2,19 @@
 float avg(int *a)
 {
     int sum=0, i;
-    float av;
+    float average;
     for(i=0; i<5; i++)
         sum=sum + *(a+i);
-    av=(float)sum/5;
-    return av;
+    average=(float)sum/5;
+    return average;
 }
 int main()
 {
     int a[5], i;
-    float b;
+    float average;
     for(i=0; i<5; i++)
         scanf("%d", &a[i]);
-    b=avg(a);
-    printf("%f\n", b);
+    average=avg(a);
+    printf("%f\n", average);
     return 0;
 }
